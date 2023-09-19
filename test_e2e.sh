@@ -2,7 +2,7 @@
 echo "##########################"
 echo "### Running e2e tests! ###"
 echo "##########################\n"
-count = 0 # number of test cases run so far
+count=0 # number of test cases run so far
 
 # Assume all `.in` and `.out` files are located in a separate `e2e_tests` directory
 

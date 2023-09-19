@@ -28,7 +28,7 @@ def read_lines(filename):
     string_board = []
 
     try:
-        with open(filename) as f:
+        with open(filename, 'r') as f:
             for line in f:
                 string_board.append(line.strip())
 
